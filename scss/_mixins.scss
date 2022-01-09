@@ -1,0 +1,52 @@
+@mixin btn {
+	display: block;
+	margin: 0.5em 1em;
+	padding: 0.8em 2em;
+	width: clamp(150px, 90%, 250px);
+	border: 1px solid transparent;
+	border-radius: 50px;
+	box-shadow: inset 0px -2px $btn-shadow;
+	color: $white;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+@mixin heading {
+	margin: 0.5em 0em;
+	color: $dark-grayish-blue;
+	text-align: center;
+	font-size: 3.2rem;
+}
+
+@mixin heading-text {
+	margin-block: 1em 3em;
+	margin-inline: auto;
+	width: clamp(10ch, 90%, 55ch);
+	color: $grayish-blue;
+	text-align: center;
+	line-height: 1.5;
+}
+
+@mixin section {
+	padding-block: 5em 2em;
+	padding-inline: 2em;
+	text-align: center;
+}
+
+@mixin element-heading {
+	margin-block: 2em 0.6em;
+	color: $dark-grayish-blue;
+	font-size: 2.5rem;
+}
+
+@mixin element-text {
+	margin-inline: auto;
+	width: clamp(10ch, 90%, 35ch);
+	line-height: 1.6;
+}
+
+@mixin client-img {
+	padding: 2em 2em;
+}
