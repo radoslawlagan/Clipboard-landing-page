@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [HERE](https://your-live-site-url.com)
+- Live Site URL: [HERE](https://radoslawlagan.github.io/Clipboard-landing-page/)
 
 ## My process
 
@@ -25,5 +25,6 @@ Users should be able to:
 
 - HTML5
 - SASS (SCSS)
+- BEM
 - Flexbox
 - Mobile-first workflow
