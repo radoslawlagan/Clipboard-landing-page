@@ -376,7 +376,6 @@ body {
 @media (min-width: 998px) {
   .header {
     margin-bottom: -2em;
-    height: 65vh;
     background-image: url(../images/bg-header-desktop.png);
   }
   .track {
