@@ -83,18 +83,18 @@ body {
 		@include heading-text;
 	}
 
-	&__container {
+	&-container {
 		&__img {
 			width: clamp(150px, 95%, 640px);
 		}
 	}
 
 	.list__element {
-		&__heading {
+		&-heading {
 			@include element-heading;
 		}
 
-		&__text {
+		&-text {
 			@include element-text;
 		}
 	}
@@ -129,7 +129,7 @@ body {
 		margin-bottom: 0em;
 	}
 
-	&__container__list {
+	&__list {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -138,17 +138,18 @@ body {
 	.list__element {
 		margin: 0 auto;
 		max-width: 300px;
-		&__heading {
+
+		&-heading {
 			@include element-heading;
 		}
 
-		&__text {
+		&-text {
 			@include element-text;
 		}
 
-		&__icon {
+		&-icon {
 			margin-block: 3em -1.5em;
-			transform: scale(1.2);
+			height: 45px;
 		}
 	}
 }
@@ -162,7 +163,7 @@ body {
 		justify-content: center;
 		align-items: center;
 
-		&__img {
+		&-img {
 			@include client-img;
 		}
 	}
@@ -210,9 +211,10 @@ body {
 		width: 55px;
 	}
 
-	&__links {
+	&__menu {
 		padding: 1em;
-		&__link {
+
+		&-link {
 			margin: 1.3em;
 			display: block;
 			color: $dark-grayish-blue;
@@ -225,7 +227,7 @@ body {
 	}
 
 	&__socials {
-		&__link {
+		&-link {
 			margin-inline: 15px;
 			color: $dark-grayish-blue;
 			font-size: 3rem;
@@ -263,7 +265,8 @@ body {
 
 	.track {
 		position: relative;
-		&__container {
+
+		&-container {
 			display: flex;
 			position: relative;
 			left: -22.5%;
@@ -278,11 +281,11 @@ body {
 				text-align: left;
 
 				.list {
-					&__element__heading {
+					&__element-heading {
 						min-width: 15ch;
 					}
 
-					&__element__text {
+					&__element-text {
 						margin-inline: 0;
 						width: clamp(25ch, 105%, 85ch);
 					}
@@ -319,11 +322,11 @@ body {
 		justify-content: center;
 		align-items: center;
 
-		&__links {
+		&__menu {
 			margin-inline: 2.5em;
 			display: flex;
 
-			&__link {
+			&-link {
 				margin: 0.5em 1em;
 			}
 		}
